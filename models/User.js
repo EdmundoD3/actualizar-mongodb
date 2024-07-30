@@ -37,7 +37,6 @@ import { Schema, model } from 'mongoose';
 const userSchema = new Schema({
   name: String,
   username: String,
-  shortName:String,
   phone: String,
   email: String,
   password: String,
@@ -46,7 +45,7 @@ const userSchema = new Schema({
     type: Boolean,
     default: false,
   },
-  updatedAt: {
+  lastUpdate: {
     type: Date,
     default: new Date()
   },

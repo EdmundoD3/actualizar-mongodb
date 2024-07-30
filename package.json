@@ -1,11 +1,17 @@
 {
-  "main": "index.js",
+  "name": "refillconatumex",
   "type": "module",
+  "version": "1.0.0",
+  "description": "aplicacion para guardar los datos almacenados en un csv a la base de datos en mongodb de conatumex",
+  "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "csv-parser": "^3.0.0",
-    "mongoose": "^8.0.3"
+    "mongoose": "^8.5.1"
   }
 }

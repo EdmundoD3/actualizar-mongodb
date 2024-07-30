@@ -1,0 +1,1 @@
+export const cobrador = {id:'6691dc6a34c19e6466a6a03a'}
