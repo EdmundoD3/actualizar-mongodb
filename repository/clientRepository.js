@@ -39,15 +39,6 @@ class ClientRepository {
       entreCalles,
       referencia,
     };
-    console.log({
-      name,
-      phone,
-      statusId,
-      direction,
-      date: parseDate(date),
-      purchases: [],
-      updatedAt: new Date(),
-    });
     const newCustomer = new Customer({
       name,
       phone,
