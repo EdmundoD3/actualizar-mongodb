@@ -95,7 +95,7 @@ const PurchaseSchema = new Schema({
     type: Boolean,
     default: false,
   },
-  products: [{ type: Schema.Types.ObjectId, ref: 'product' }],
+  products: [{quantity:Number, product:{ type: Schema.Types.ObjectId, ref: 'product' }}],
   payments: [{
     paymentDate: Date,
     amount: Number,
