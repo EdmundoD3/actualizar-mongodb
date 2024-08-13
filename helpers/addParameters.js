@@ -35,7 +35,7 @@ const AddParameters = ({
     const { _id } = productsId.find(
       ({ product }) => product == searchedProduct
     );
-    return { quantity, product: _id };
+    return { quantity,  productId:_id };
   }
   function products(cliente) {
     const products = [];
